@@ -1,0 +1,99 @@
+body {
+  background-color:white !important;
+}
+
+
+p, h1 {
+  font-family: 'Droid Sans', sans-serif;
+}
+
+.clientheader {
+  background-color:lightblue !important;
+  background-color: lightblue;
+}
+
+.clientheader h1{ margin:10px 0;}
+.clientheader h3{ margin:15px 0}
+.clientheader .btn{margin:0;}
+
+.col-xs-2, .col-xs-10, .col-lg-12 .col-md-12{
+  display: inline-block;
+  float: none;
+}
+.col-xs-10 {
+  vertical-align: middle;
+}
+
+.col-lg-12 {
+  vertical-align: middle !important;
+}
+
+.col-md-12 {
+  vertical-align: middle !important;
+}
+.btn-alignaaaaaaaaaaaaaaaaaaaaaaaa {
+  vertical-align: middle !important;
+}
+
+.search{
+  padding: 0 10px;
+  font-size:0.8em;
+  line-height: 0.8em;
+  float:right;
+  height:100%;
+  display:table;
+  vertical-align:middle;
+}
+
+.table-striped>tr:nth-child(odd){
+  background-color:darkblue !important;
+}
+
+.selected { background-color: darkred !important; }
+
+@media(max-width:991px) {
+  .clientheader{position:relative;}
+  .clientheader h1,.clientheader h3,.professionalexperience h1,.screenshots h1{font-size:20px;}
+  .clientheader h1,.clientheader h3{padding:10px 50px 10px 0; margin:0}
+  .clientheader h1 a.btn,.clientheader h3 a.btn{position:absolute; right:10px; top:7px;}
+  .about h1{ padding:0!important;}
+}
+@media(max-width:768px) {
+  .screenshots p{text-align:justify;}
+  .header {
+    text-align:center;
+    padding-top: 20%;
+  }
+
+  .header h1 {
+    font-size:4em;
+  }
+
+  .header p {
+    font-size:1em;
+  }
+
+  .header .btn {
+    padding: 5px 12px 5px 12px;
+  }
+
+  .header img {
+    padding-top:10%;
+  }
+
+}
+@media(max-width:480px) {
+  .clientheader h1, .clientheader h3, .professionalexperience h1, .screenshots h1{font-size:17px;}
+  .clientheader h3 a.btn,.clientheader h1 a.btn{top:5px;}
+
+  .clientheader h1, .clientheader h3, .professionalexperience h1, .screenshots h1{display: table;vertical-align: middle;padding-right: 0; width:100%;}
+  .clientheader h1 span.leftsec,
+  .clientheader h3 span.leftsec,
+  .professionalexperience h1 span.leftsec,
+  .screenshots h1 span.leftsec{display: table-cell; vertical-align: middle;}
+  .clientheader h1 span.rightsec,
+  .clientheader h3 span.rightsec,
+  .professionalexperience h1 span.rightsec,
+  .screenshots h1 span.rightsec{position: relative;display: table-cell;vertical-align: middle!important;right: initial;top: initial;float: none;}
+  .clientheader h3 a.btn,.clientheader h1 a.btn{position:relative; right:inherit; top:inherit}
+}

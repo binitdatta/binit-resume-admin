@@ -1,0 +1,30 @@
+/*HEADER*/
+
+.header {
+  padding: 100px 0 20px;
+  background-size: cover;
+  width: 100%;
+ /*  background: url(../../assets/img/bg.jpg) no-repeat center; */
+  border-bottom: 2px solid #c9c9c9;
+}
+
+.header h1 {
+  color: white;
+  font-family: 'Pacifico', cursive;
+  font-size: 7.5em;
+}
+
+.header p {
+  color:white;
+  font-size:1.3em;
+}
+
+.header .btn {
+  padding: 5px 50px 5px 50px;
+  border-radius: 0;
+}
+
+header.gallery {
+  max-width: 250px;
+  max-height: 250px;
+}
